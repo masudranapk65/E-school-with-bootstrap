@@ -1,0 +1,237 @@
+/* font-family: "Poppins", sans-serif; */
+
+*{
+    margin:0;
+    padding: 0;;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section start */
+.banner_section{
+    background-color: #F0FFF0;
+    min-height: 100vh;
+    ;
+}
+.nav-link{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    margin-left: 20px;
+    ;
+
+}
+.nav-link:hover{
+    background-color: #f0e9e9;
+    border-radius: 30px;
+    color: #fff;
+}
+.btn_signin{
+    background-color: #21B573;
+    color: white;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+
+}
+.btn_signin:hover{
+    background-color: #128573;
+    color: white;
+
+}
+.banner_section h1{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.last{
+color: #21B573;
+
+}
+.height{
+    min-height:85vh ;
+}
+.banner_section h5{
+    color: #FD511A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+}
+.banner_section p{
+    
+    margin-bottom: 20px;
+}
+/* banner section end */
+/* feature section start */
+.feature_content{
+    background-color: #F8FFFB;
+    padding: 50px 0px;
+}
+.feature_content:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+
+    ;
+}
+.feature_content img{
+    width: 20%;
+    margin-bottom:20px;
+   
+}
+.feature_content h4{
+    font-family: "Poppins", sans-serif; 
+    font-weight: 500;
+    font-size: 24px;
+    line-height:36px;
+    color:#413960;
+
+}
+.feature_content p{
+    font-size: 16px;
+    line-height: 24px;
+    color:#585859;
+    font-weight: 400;
+    ;
+}
+/* feature section end */
+
+/* course section start */
+.online_course{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color:#413960;
+}
+.course_content{
+  
+}
+.course_content:hover{
+    background-color: #fff;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.course_content img{
+    width:100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    ;
+}
+.course_content h4{
+   color: #413960;
+   font-size: 24px;
+   line-height: 36px;
+   font-weight: 500;
+   margin-bottom: 12px;
+}
+.course_content p{
+    margin-bottom: 20px;
+
+}
+.btn_course{
+    text-decoration: none;
+    color:#fff;
+    background-color: #21B573;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+}
+.btn_course:hover{
+    background-color:  #aadbc9;
+   
+
+  
+
+}
+
+.course_content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+  
+    ;
+}
+.course_content ul li{
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color:#585859;
+}
+/* course section end */
+
+/* testimonial section start */
+.testimonial_head{
+
+}
+.T_text_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    
+}
+.testimonial_head h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color:#413960;
+    margin:30px 0px; 
+}
+.T_text_content img{
+    width:120px;
+    margin:0;
+
+}
+.T_text_content img:hover{
+    background: #fff;
+     box-shadow: 0px 10px 40px 0px rgba(196, 196, 196, 1);
+
+}
+.T_text_content q{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 30px;
+ font-family: "Poppins", sans-serif; 
+ padding-top: 5px;
+ padding-left: 20px;
+
+}
+
+/* testimonial section end */
+/* footer section start */
+footer{
+    background-color: #282531;
+    color:#fff;
+}
+
+.f_1{
+
+}
+.f_2 ul{
+    list-style: none;
+}
+.f_2 h6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif; 
+}
+.f_2 ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif; 
+    color:#e9eeeb;
+}
+/* footer section end */
